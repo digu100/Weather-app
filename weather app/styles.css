@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: cursive;
+}
+
+body{
+    background-color: #c2b3b3;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.card{
+    width: 415px;
+    height: 530px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35 px;
+    text-align: center;
+
+    border: 1px solid ;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.632);
+}
+    
+
+.search{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: white;
+    border-radius: 50%;
+    height: 45px;
+    width: 50px;
+
+    /* border: 1px solid black; */
+}
+
+.search img{
+   
+    padding-left: 15px;
+    padding-right: 15px;
+  width: 42px;
+  height: 17px;
+    
+}
+
+.weather-icon{
+    width: 100px;
+}
+
+.weather h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}
+
+.weather h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-family: cursive;
+    margin-top: 20px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 5px;
+
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
+}
+
+.col img{
+    width: 40%;
+}
+
+.humidity, .wind{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
